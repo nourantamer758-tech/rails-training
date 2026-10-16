@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+#Bff {
+    width: 200px;
+    border-radius:50% ;
+    border :    7px  solid   #EFB0C9 ;
+}
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1,h2,h4 
+{
+    text-shadow: 1px 1px 1px 
+    #d3b0ef ;
+}
+h2,h4 {
+    background:  #d3b0ef;
+
+}
+
+#age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    margin: 5px 0 10px 0;
+}
+#date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.gift-section {
+    margin-top: 50px;
+}
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+
+.gift-img {
+    margin: 0 ;
+    width: 400px;
+    height:400px  ;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(gift-cover.jpg);  
+        background-size: cover;
+}
+
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 30px;
+}
+
+a {
+    color:beige;
+}
+
+
+
